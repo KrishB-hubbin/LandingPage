@@ -1,2 +1,4 @@
 This is a recap and further practice using git
 OK i learned pretty much how to commit again
+my bad i cant seem to push this to my github
+
