@@ -1,0 +1,74 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    padding:0 15px ;
+}
+
+.box1{
+    background-color: #1f2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.One .container .head {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.One {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.container {
+    width: 400px;
+    column-gap: 10px;
+}
+
+img[alt~="dog"]{
+    
+    border-radius: 5px;
+}
+
+.Two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Two ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.box{
+    width: 50px;
+    height: auto;
+    border: #3882f6;
+}
+
