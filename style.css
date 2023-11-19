@@ -3,7 +3,10 @@
 }
 
 body{
-    padding:0 15px ;
+    height: 1080px;
+    display: flex;
+    flex-direction:column ;
+    flex: auto;
 }
 
 .box1{
@@ -31,26 +34,28 @@ a {
     color: #e5e7eb;
 }
 
-.One .container .head {
-    font-size: 48px;
-    font-weight: bolder;
+.One .container .head, .One .container .text {
     color: #f9faf8;
+}
+.head {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .One {
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 80px;
 }
 
-.container {
+.One .container {
     width: 400px;
-    column-gap: 10px;
+    padding: 30px;
 }
 
 img[alt~="dog"]{
-    
     border-radius: 5px;
 }
 
@@ -58,17 +63,66 @@ img[alt~="dog"]{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .Two ul {
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
-.box{
-    width: 50px;
+.Two .box{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 5px solid;
+    border-color:#3882f6;
+}
+
+.Two ul li {
+    width: 150px;
     height: auto;
-    border: #3882f6;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.poem {
+    font-size: 20px;
+    font-family: italic;
+    color: #1f2937;
+}
+
+.author{
+    display: flex;
+    justify-content: flex-end;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.Four{
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+}
+.Four .container{
+    background-color:#3882f6 ;
+}
