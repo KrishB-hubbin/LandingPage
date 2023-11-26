@@ -2,3 +2,15 @@ This is a recap and further practice using git
 OK i learned pretty much how to commit again
 my bad i cant seem to push this to my github
 
+         <li><div class="box"></div>
+                <div class="Wrap">    
+                <div class="text">This is the firsifat box</div></div></li>
+            <li><div class="box"></div>
+                <div class="Wrap">    
+                <div class="text"></div>Seconkanijbalca</div></li>
+            <li><div class="box"></div>
+                <div class="Wrap">    
+                <div class="text">1fxqSxJ0fVkVjnfffgsil20QGkDA237 aJN4mk</div></div>
+            <li><div class="box"></div>
+                <div class="Wrap">    
+                <div class="text">4 ojanofeuanonoasincaow99999 cajobv  firsibaonbjibwe</div></li>

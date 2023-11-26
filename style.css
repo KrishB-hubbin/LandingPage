@@ -1,21 +1,31 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+html{
+    margin: 0;
+}
 
 body{
-    height: 1080px;
+    height: auto;
     display: flex;
     flex-direction:column ;
     flex: auto;
+    margin: 0;
 }
 
 .box1{
     background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2%;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
+    height: 10%;
+    padding: 0 5%;
 }
 
 .header h1{
@@ -26,7 +36,7 @@ body{
 .header ul {
     list-style: none;
     display: flex;
-    gap: 5px;
+    gap: 10px;
 }
 
 a {
@@ -43,57 +53,54 @@ a {
 }
 
 .One {
-    height: 100px;
+    height: 20%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 80px;
+    padding: 5% 10%;
 }
 
 .One .container {
     width: 400px;
-    padding: 30px;
+    flex: 1;
+}
+.One .image {
+    display:flex;
+    justify-content: center;
+    flex: 1;
 }
 
-img[alt~="dog"]{
-    border-radius: 5px;
-}
 
 .Two{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
-    justify-content: center;
 }
 
 .Two ul {
     display: flex;
-    list-style: none;
-    gap: 20px;
-    flex-wrap: wrap;
+    gap: 2%;
+}
+.Two .box {
+    width: 200px;
+    height: 200px;
+    border-width: 20px;
+    border: solid #3882f6;
+    border-radius: 15px;
+    margin-bottom: 5%;
 }
 
-.Two .box{
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    border: 5px solid;
-    border-color:#3882f6;
-}
-
-.Two ul li {
-    width: 150px;
-    height: auto;
+.Two li {
     display: flex;
-    flex-direction:column ;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+    align-items:center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
 
-.wrap {
+.Two li .text {
     display: flex;
-    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
 }
 
 .Three {
@@ -102,7 +109,7 @@ img[alt~="dog"]{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+    padding: 10% 20%;
 }
 
 .poem {
@@ -125,4 +132,41 @@ img[alt~="dog"]{
 }
 .Four .container{
     background-color:#3882f6 ;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5% 10%;
+    border-radius: 10px;
+}
+
+
+.Four .container button {
+    margin: 2%;
+    width: max-content;
+    height: min-content;
+    white-space: nowrap;
+    border-style: solid;
+    background-color:#3882f6;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    align-self: center;
+}
+
+.Four .buy{
+    font-size: large;
+    font-weight: bold;
+}
+
+.Four .container .cont{
+    color: white;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 5%;
 }
