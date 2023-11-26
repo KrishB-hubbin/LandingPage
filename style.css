@@ -69,7 +69,19 @@ a {
     justify-content: center;
     flex: 1;
 }
-
+.One button{
+    margin: 2%;
+    padding: 5px 20px;
+    width: max-content;
+    height: min-content;
+    white-space: nowrap;
+    border-style: solid;
+    background-color:#3882f6;
+    border-color: #3882f6;
+    color: white;
+    align-self: center;
+    border-radius: 5px;
+}
 
 .Two{
     display: flex;
@@ -77,9 +89,19 @@ a {
     align-items: center;
 }
 
+
+.Two .image-flex{
+    max-width: 100%;
+    max-height: auto;
+}
+
 .Two ul {
     display: flex;
-    gap: 2%;
+    flex-wrap: wrap;
+    width: max-content;
+    gap: 3%;
+    width: 100%;
+    justify-content: center;
 }
 .Two .box {
     width: 200px;
@@ -109,7 +131,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10% 20%;
+    padding: 5% 20%;
 }
 
 .poem {
@@ -134,13 +156,13 @@ a {
     background-color:#3882f6 ;
     display: flex;
     justify-content: space-evenly;
-    padding: 5% 10%;
-    border-radius: 10px;
+    padding: 4% 8%;
 }
 
 
 .Four .container button {
     margin: 2%;
+    padding: 5px 20px;
     width: max-content;
     height: min-content;
     white-space: nowrap;
@@ -148,14 +170,13 @@ a {
     background-color:#3882f6;
     border-color: white;
     color: white;
-    border-radius: 5px;
     border-width: 2px;
     align-self: center;
 }
 
 .Four .buy{
     font-size: large;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .Four .container .cont{
@@ -168,5 +189,5 @@ a {
     justify-content: center;
     background-color: black;
     color: white;
-    padding: 5%;
+    padding: 3%;
 }
