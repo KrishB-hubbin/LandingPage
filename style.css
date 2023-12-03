@@ -177,6 +177,7 @@ a {
 .Four .buy{
     font-size: large;
     font-weight: bolder;
+    margin-bottom: 5px;
 }
 
 .Four .container .cont{
